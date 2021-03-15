@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PadariaKotlin</string>
+    <string name="paes">Pães</string>
+    <string name="doces">Doces</string>
+    <string name="salgados">Salgados</string>
+    <string name="tortas">tortas</string>
+    <string name="sanduiches">Sanduiches</string>
+    <string name="omeletes">Omeletes</string>
+    <string name="cafes">Cafés</string>
+    <string name="bolos">Bolos</string>
+    <string name="add_carrinho">Adicionar ao carrinho</string>
+    <string name="voltar">Voltar</string>
+</resources>
