@@ -23,6 +23,9 @@
             android:id="@+id/mn_sanduiches"
             android:title="@string/sanduiches" />
         <item
+            android:id="@+id/mn_cucas"
+            android:title="Cucas" />
+        <item
             android:id="@+id/mn_omeletes"
             android:title="@string/omeletes" />
     </group>
