@@ -7,7 +7,7 @@ import br.com.mjaraujo.padariakotlin.models.Pao
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_paes.*
 
-class PaesActivity : AppCompatActivity() {
+class OmeletesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_paes)

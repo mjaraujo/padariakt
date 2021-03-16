@@ -7,7 +7,7 @@
     tools:context=".PaesActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_paes"
         android:layout_width="261dp"
         android:layout_height="164dp"
         android:layout_marginTop="32dp"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/ic_bread_image" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txt_info_paes"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -27,7 +27,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/img_paes" />
 
     <Button
         android:id="@+id/btn_add_carrinho_paes"
@@ -39,7 +39,7 @@
         android:text="@string/add_carrinho"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_voltar_paes"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_info_paes" />
 
     <Button
         android:id="@+id/btn_voltar_paes"
@@ -51,5 +51,5 @@
         android:text="@string/voltar"
         app:layout_constraintEnd_toStartOf="@+id/btn_add_carrinho_paes"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_info_paes" />
 </androidx.constraintlayout.widget.ConstraintLayout>

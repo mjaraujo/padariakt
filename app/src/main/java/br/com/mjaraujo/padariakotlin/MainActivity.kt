@@ -22,6 +22,27 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.mn_paes -> Intent(this, PaesActivity::class.java).apply {
                 startActivity(this)
             }
+            R.id.mn_tortas -> Intent(this, TortasActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_bolos -> Intent(this, BolosActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_cafes -> Intent(this, CafesActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_doces -> Intent(this, DocesActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_omeletes -> Intent(this, OmeletesActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_salgados -> Intent(this, TortasActivity::class.java).apply {
+                startActivity(this)
+            }
+            R.id.mn_sanduiches -> Intent(this, TortasActivity::class.java).apply {
+                startActivity(this)
+            }
         }
         return true
     }

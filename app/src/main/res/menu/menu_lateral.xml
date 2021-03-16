@@ -17,16 +17,13 @@
             android:id="@+id/mn_cafes"
             android:title="@string/cafes" />
         <item
-            android:id="@+id/cafes"
-            android:title="@string/doces" />
-        <item
-            android:id="@+id/bolos"
+            android:id="@+id/mn_bolos"
             android:title="@string/bolos" />
         <item
             android:id="@+id/mn_sanduiches"
             android:title="@string/sanduiches" />
         <item
-            android:id="@+id/omeletes"
+            android:id="@+id/mn_omeletes"
             android:title="@string/omeletes" />
     </group>
 

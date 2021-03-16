@@ -2,12 +2,14 @@ package br.com.mjaraujo.padariakotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.mjaraujo.padariakotlin.CarrinhoActivity
+import br.com.mjaraujo.padariakotlin.R
 import br.com.mjaraujo.padariakotlin.models.Categoria
 import br.com.mjaraujo.padariakotlin.models.Pao
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_paes.*
 
-class PaesActivity : AppCompatActivity() {
+class SanduichesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_paes)

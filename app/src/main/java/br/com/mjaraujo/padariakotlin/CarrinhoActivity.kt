@@ -16,10 +16,10 @@ import kotlinx.android.synthetic.main.activity_paes.*
 
 val EXTRA_PRODUCT = "extra_produto"
 
-class CarrinhoActivity(var okListener: OkListener,var produto: IProduto) : DialogFragment() {
+class CarrinhoActivity(var okListener: OkListener, var produto: IProduto) : DialogFragment() {
 
     interface OkListener {
-        fun onOkClick()
+        fun onOkClick(quantidade: Int)
     }
 
 
@@ -52,7 +52,7 @@ class CarrinhoActivity(var okListener: OkListener,var produto: IProduto) : Dialo
         txt_descricao_produto.text = produto.descricao
 
         btn_ok_add_carrinho.setOnClickListener {
-            okListener.onOkClick()
+            okListener.onOkClick(txt_quantidade.text.toString().toInt())
             mAlertDialog.dismiss()
         }
 
