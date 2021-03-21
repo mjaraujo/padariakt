@@ -2,6 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
         <item
+            android:id="@+id/mn_bolos"
+            android:title="@string/bolos" />
+        <item
+            android:id="@+id/mn_cafes"
+            android:title="@string/cafes" />
+        <item
             android:id="@+id/mn_paes"
             android:title="@string/paes" />
         <item
@@ -13,12 +19,6 @@
         <item
             android:id="@+id/mn_salgados"
             android:title="@string/salgados" />
-        <item
-            android:id="@+id/mn_cafes"
-            android:title="@string/cafes" />
-        <item
-            android:id="@+id/mn_bolos"
-            android:title="@string/bolos" />
         <item
             android:id="@+id/mn_sanduiches"
             android:title="@string/sanduiches" />
