@@ -5,14 +5,15 @@ import android.os.Bundle
 import br.com.mjaraujo.padariakotlin.models.Categoria
 import br.com.mjaraujo.padariakotlin.models.Pao
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.activity_bolos.*
 import kotlinx.android.synthetic.main.activity_paes.*
 
 class BolosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_paes)
+        setContentView(R.layout.activity_bolos)
 
-        btn_add_carrinho_paes.setOnClickListener {
+        btn_add_carrinho_bolos.setOnClickListener {
             val paoSimples = Pao(
                 "01",
                 "Pão simples",
@@ -27,7 +28,7 @@ class BolosActivity : AppCompatActivity() {
         }
 
 
-        btn_voltar_paes.setOnClickListener {
+        btn_voltar_bolos.setOnClickListener {
             finish()
         }
     }
@@ -36,8 +37,8 @@ class BolosActivity : AppCompatActivity() {
         object : CarrinhoActivity.OkListener {
             override fun onOkClick(quantidade: Int) {
                 Snackbar.make(
-                    btn_add_carrinho_paes,
-                    quantidade.toString() + " Pão adicionado ao carrinho",
+                    btn_add_carrinho_bolos,
+                    quantidade.toString() + " Bolo adicionado ao carrinho",
                     Snackbar.LENGTH_SHORT
                 ).show()
             }

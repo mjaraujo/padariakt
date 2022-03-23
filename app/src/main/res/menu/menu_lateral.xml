@@ -8,9 +8,6 @@
             android:id="@+id/mn_cafes"
             android:title="@string/cafes" />
         <item
-            android:id="@+id/mn_paes"
-            android:title="@string/paes" />
-        <item
             android:id="@+id/mn_doces"
             android:title="@string/doces" />
         <item
@@ -22,9 +19,6 @@
         <item
             android:id="@+id/mn_salgados"
             android:title="@string/salgados" />
-		    <item
-			      android:id="@+id/mn_paes"
-			      android:title="@string/paes" />
         <item
             android:id="@+id/mn_sanduiches"
             android:title="@string/sanduiches" />
@@ -32,10 +26,8 @@
             android:id="@+id/mn_cucas"
             android:title="Cucas" />
         <item
-            android:id="@+id/mn_omeletes"
-            android:title="@string/omeletes" />
-            android:id="@+id/mn_tortas"
-            android:title="@string/tortas" />
+        android:id="@+id/mn_tortas"
+        android:title="@string/tortas" />
     </group>
 
 </menu>
