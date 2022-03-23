@@ -8,6 +8,9 @@
             android:id="@+id/mn_cafes"
             android:title="@string/cafes" />
         <item
+            android:id="@+id/mn_paes"
+            android:title="@string/paes" />
+        <item
             android:id="@+id/mn_doces"
             android:title="@string/doces" />
         <item
