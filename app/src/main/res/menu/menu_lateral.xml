@@ -22,6 +22,9 @@
         <item
             android:id="@+id/mn_salgados"
             android:title="@string/salgados" />
+		    <item
+			      android:id="@+id/mn_paes"
+			      android:title="@string/paes" />
         <item
             android:id="@+id/mn_sanduiches"
             android:title="@string/sanduiches" />
