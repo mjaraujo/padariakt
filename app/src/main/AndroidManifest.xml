@@ -16,6 +16,7 @@
         <activity android:name=".CafesActivity" />
         <activity android:name=".SanduichesActivity" />
         <activity android:name=".TortasActivity" />
+        <activity android:name=".OmeletesActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
