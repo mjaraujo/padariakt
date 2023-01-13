@@ -16,7 +16,7 @@ class OmeletesActivity : AppCompatActivity() {
             val paoSimples = Pao(
                 "01",
                 "Pão simples",
-                "Pão feito com água, trigo, sal e fermento",
+                "Pão feito com leite, trigo, sal e fermento",
                 3.80,
                 Categoria.PAO
             )
