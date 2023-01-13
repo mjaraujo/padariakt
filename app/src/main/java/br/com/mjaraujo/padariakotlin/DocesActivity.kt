@@ -15,9 +15,9 @@ class DocesActivity : AppCompatActivity() {
         btn_add_carrinho_doces.setOnClickListener {
             val paoSimples = Pao(
                 "01",
-                "Doce simples",
+                "Doce elaborado",
                 "Doce feito com água, trigo, sal e fermento",
-                3.80,
+                5.80,
                 Categoria.PAO
             )
             CarrinhoActivity(carrinhoListener, paoSimples).show(
